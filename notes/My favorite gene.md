@@ -3,8 +3,12 @@
 ##Hsp70
 This page was created by **Laura L. López**
 
-**Is it this gene present in the White shrimp transcriptome?** 
----
+**Is the Hsp70 gene of the White shrimp match with other species?** 
+
+![Litopenaeus vannamei](http://4.bp.blogspot.com/-MJDZVDXjc10/VWKr4-V85tI/AAAAAAACHkc/ovh3IzXv7sw/s1600/Litopenaeus%2Bvannamei%2B01.jpg)
+
+********
+
 
 ###First step
 
@@ -60,6 +64,39 @@ This page was created by **Laura L. López**
 `cat out\Lvannamei_Hsp70_blastx_uniprot.out`
 
 ![Matches](Imagen3.png)
+
+
+**-** I blasted my sequence again with more specific settings and I obtain the more close match to the gene of my specie.
+
+`blastx \`
+
+`-outfmt 6 \`
+
+`-max_target_seqs 1 \`
+
+`-evalue 1e-20 \`
+
+`-query query\L-vannamei-Hsp70.fasta \`
+
+`-db db\uniprot_sprot \`
+
+`-out out\Lvannamei_Hsp70_blastx_uniprot-fmt6.out`
+
+**-** To see the match I used this command:
+
+`!cat out\Lvannamei_Hsp70_blastx_uniprot-fmt6.out`
+
+![Match](Imagen4.png)
+
+
+And that's all!!!
+---
+
+
+###Today was a very succesful day, cause I can apply the adquire Knowledge.
+**----------------------------------------------------------------------------------------**
+
+
 
  
 
